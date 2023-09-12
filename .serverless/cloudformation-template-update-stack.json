@@ -162,10 +162,10 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/base-project-restful-api/dev/1694513075270-2023-09-12T10:04:35.270Z/base-project-restful-api.zip"
+          "S3Key": "serverless/base-project-restful-api/dev/1694513672122-2023-09-12T10:14:32.122Z/base-project-restful-api.zip"
         },
         "Handler": "dist/lambda.handler",
-        "Runtime": "nodejs14.x",
+        "Runtime": "nodejs16.x",
         "FunctionName": "base-project-restful-api-dev-main",
         "MemorySize": 1024,
         "Timeout": 6,
@@ -180,7 +180,7 @@
         "MainLogGroup"
       ]
     },
-    "MainLambdaVersiontX0hYa7N8KyQbLdZG4pfJfQZePo56SJZ9GOGSFp97F8": {
+    "MainLambdaVersionrdTsv8rmg56951TYgtirSPobD8Kix6nDIKvBGMirSyg": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
@@ -263,7 +263,7 @@
         "MainLambdaPermissionApiGateway"
       ]
     },
-    "ApiGatewayDeployment1694513064347": {
+    "ApiGatewayDeployment1694513662299": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -325,7 +325,7 @@
     "MainLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "MainLambdaVersiontX0hYa7N8KyQbLdZG4pfJfQZePo56SJZ9GOGSFp97F8"
+        "Ref": "MainLambdaVersionrdTsv8rmg56951TYgtirSPobD8Kix6nDIKvBGMirSyg"
       },
       "Export": {
         "Name": "sls-base-project-restful-api-dev-MainLambdaFunctionQualifiedArn"
