@@ -25,9 +25,18 @@
     "@nestjs/mapped-types": "*",
     "@nestjs/platform-express": "^10.0.0",
     "@nestjs/typeorm": "^10.0.0",
+    "@types/send": "^0.17.1",
+    "@vendia/serverless-express": "^4.10.4",
+    "aws-lambda": "^1.0.7",
+    "aws-serverless-express": "^3.4.0",
+    "babel-preset-minify": "^0.5.2",
+    "function.prototype.name": "^1.1.6",
     "mysql2": "^3.6.0",
+    "punycode": "^2.3.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
+    "serverless-offline": "^12.0.4",
+    "serverless-plugin-optimize": "^4.2.1-rc.1",
     "typeorm": "^0.3.17"
   },
   "devDependencies": {

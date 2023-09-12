@@ -1,0 +1,21 @@
+service: base-project-restful-api
+
+plugins:
+  - serverless-offline
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: ap-southeast-1
+
+# package:
+#   exclude:
+#     - node_modules/**
+
+functions:
+  main:
+    handler: dist/lambda.handler
+    events:
+      - http:
+          method: any
+          path: /{any+}
